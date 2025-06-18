@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #111;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+
+  .links ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .links li a {
+    text-decoration: none; 
+    color: #000;            
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    background-color: #eee;
+    border-radius: 5px;
+  }
+  
+  .links li a:hover {
+    background-color: #ccc;
+  }
+  
+  
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .banner img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .banner-text {
+    max-width: 500px;
+  }
+  
+  .banner-text h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .banner-text p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .produto {
+    flex: 1 1 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .produto:hover {
+    transform: scale(1.02);
+  }
+  
+  .produto img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .produto-info {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .produto-info h2 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+  .sobre-nos {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .sobre-nos h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #111;
+    text-align: center;
+  }
+  
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #111;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  
